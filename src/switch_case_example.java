@@ -1,35 +1,35 @@
-/* Soru: Öyle bir program yazın ki bu program, verilen bir değerin çift mi, tek mi yoksa
- * sayı doğrusunun soldunda (Örneğin -1) olup olmadığını switch- case ve if yapısıyla yazıp
- * ekrana yazdırın. */
+/* Soru: Ã–yle bir program yazÄ±n ki bu program, verilen bir deÄŸerin Ã§ift mi, tek mi yoksa
+ * sayÄ± doÄŸrusunun solunda (Ã–rneÄŸin -1) olup olmadÄ±ÄŸÄ±nÄ± switch- case ve if yapÄ±sÄ±yla yazÄ±p
+ * ekrana yazdÄ±rÄ±n. */
 
 
 public class switch_case_example {
 
 	public static void main(String[] args) {
 		
-		int a=60,c; // a kendimizin değiştirebileceğimiz bir değişken ve c'yi ise sonradan değer atayacağımız için değer atamadık.
+		int a=60,c; // a kendimizin deÄŸiÅŸtirebileceÄŸimiz bir deÄŸiÅŸken ve c'yi ise sonradan deÄŸer atayacaÄŸÄ±mÄ±z iÃ§in deÄŸer atamadÄ±k.
 		
-		c=a%2; // a'ye atadığımız değerin modunu alarak çift bir sayı mı yoksa tek bir sayı mı olduğunu anlayacağız.
+		c=a%2; // a'ye atadÄ±ÄŸÄ±mÄ±z deÄŸerin modunu alarak Ã§ift bir sayÄ± mÄ± yoksa tek bir sayÄ± mÄ± olduÄŸunu anlayacaÄŸÄ±z.
 		
 		switch(c) {
 		
 		case 0:
 			if(a<0 && c==0) {
-				System.out.println("Sayınız sayı doğrusunun solunda ve çift bir sayı.");
+				System.out.println("SayÄ±nÄ±z sayÄ± doÄŸrusunun solunda ve Ã§ift bir sayÄ±.");
 			}
 			else {
-				System.out.println("Sayınız sayı doğrusun sağında ve çift bir sayı.");
+				System.out.println("SayÄ±nÄ±z sayÄ± doÄŸrusun saÄŸÄ±nda ve Ã§ift bir sayÄ±.");
 				}
 			break;
 			
 			
 		case 1:
-			System.out.println(a + " sayısı bir tek sayıdır!");
+			System.out.println(a + " sayÄ±sÄ± bir tek sayÄ±dÄ±r!");
 			break;
 			
 			
 		case -1:
-			System.out.println(a + " sayısı tek ve sayı doğrusunun solundadır.");
+			System.out.println(a + " sayÄ±sÄ± tek ve sayÄ± doÄŸrusunun solundadÄ±r.");
 			break;
 			
 		default:
